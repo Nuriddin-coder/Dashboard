@@ -42,9 +42,9 @@ export const Header = () => {
             src={AavatarImg}
             alt="img"
           />
-          <span className="ml-[10px]">
+          <div className="ml-[10px] ">
             <ModeToggle />
-          </span>
+          </div>
         </div>
       </div>
 

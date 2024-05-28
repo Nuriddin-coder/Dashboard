@@ -9,7 +9,7 @@ export const MainLayout = () => {
 
   return (
     <div className="container rounded-lg tablet:grid tablet:grid-cols-colMain">
-      <div className="hidden flex-col items-center gap-4 rounded-l-lg bg-white pb-[25px] pt-[40px] dark:bg-DarkSecondary tablet:flex">
+      <div className="hidden flex-col h-[730px] items-center gap-4 rounded-l-lg bg-white pb-[25px] pt-[40px] dark:bg-DarkSecondary tablet:flex">
         <span className="pb-[30px]">
           <MenuIcon />
         </span>
@@ -26,7 +26,7 @@ export const MainLayout = () => {
           </Link>
         ))}
       </div>
-      <div className="px-[15px] tablet:px-[35px]">
+      <div className="px-[15px] h-[730px] overflow-y-scroll tablet:px-[35px]">
         <header>
           <Header />
         </header>
